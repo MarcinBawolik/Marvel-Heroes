@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/Marvel-Heroes/static/js/main.f9f036aa.js",
+    "main.js": "/Marvel-Heroes/static/js/main.c079a20b.js",
     "static/js/787.6a30197a.chunk.js": "/Marvel-Heroes/static/js/787.6a30197a.chunk.js",
     "static/media/bg.png": "/Marvel-Heroes/static/media/bg.2f14f41bfc9ab08c1404.png",
     "static/media/logo.png": "/Marvel-Heroes/static/media/logo.275558ebb62a64a6b12c.png",
     "index.html": "/Marvel-Heroes/index.html",
-    "main.f9f036aa.js.map": "/Marvel-Heroes/static/js/main.f9f036aa.js.map",
+    "main.c079a20b.js.map": "/Marvel-Heroes/static/js/main.c079a20b.js.map",
     "787.6a30197a.chunk.js.map": "/Marvel-Heroes/static/js/787.6a30197a.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.f9f036aa.js"
+    "static/js/main.c079a20b.js"
   ]
 }
