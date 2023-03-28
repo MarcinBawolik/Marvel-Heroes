@@ -1,5 +1,5 @@
 const apiUrl =
-  "http://gateway.marvel.com/v1/public/characters?ts=1&apikey=c9c66cd41a4ffadaea8ff2118100b9fe&hash=175b9ff0950e6daa03cdddb9924e7189";
+  "https://gateway.marvel.com/v1/public/characters?ts=1&apikey=c9c66cd41a4ffadaea8ff2118100b9fe&hash=175b9ff0950e6daa03cdddb9924e7189";
 
 export async function getMarvelHeroes() {
   try {
