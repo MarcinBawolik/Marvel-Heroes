@@ -1,8 +1,17 @@
-import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { configureStore } from "@reduxjs/toolkit";
+import rootSaga from "../rootSaga";
+import createSagaMiddleware from "@redux-saga/core";
+import marvelHeroesReducer from "../marvelHeroesSlice";
 
-export const store = configureStore({
+const sagaMiddleware = createSagaMiddleware();
+
+const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    marvelHeroes: marvelHeroesReducer,
   },
+  middleware: [sagaMiddleware],
 });
+
+sagaMiddleware.run(rootSaga);
+
+export default store;
